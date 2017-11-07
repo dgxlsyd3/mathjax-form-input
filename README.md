@@ -1,3 +1,6 @@
+# Usage:
+    \FormInput[size][class][readonly][value]{name}
+
 # Extension: forminput for the MathJax third party repository
 
 A version of `forminput.js` for the [MathJax third party extension repository](https://github.com/mathjax/MathJax-third-party-extensions), including a compressed version (using YUI, see the [MathJax-dev tools](https://github.com/mathjax/mathjax-dev)).
