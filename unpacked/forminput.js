@@ -77,5 +77,5 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   
 }));
 
-MathJax.Ajax.loadComplete("[myrawgit]/forminput/unpacked/forminput.js");
+MathJax.Ajax.loadComplete("http://raw.githack.com/houshengandt/mathjax-form-input/master/unpacked/forminput.js");
 
