@@ -64,7 +64,7 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
       if (val == null) {val = ""}
       cls = ("MathJax_Input "+(cls||"")).replace(/ +$/,"");
       if (readonly == 'readonly') {
-        var input = HTML.Element("input",{type:"text", name:id, id:id, size:size, className:cls, readonly: readonly, value:val});
+        var input = HTML.Element("input",{type:"text", name:id, id:id, size:size, className:cls, readonly: readonly, value:val, a: 'b'});
         console.log(1);
       } else {
         var input = HTML.Element("input",{type:"text", name:id, id:id, size:size, className:cls, value:val});
